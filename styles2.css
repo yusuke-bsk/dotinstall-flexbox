@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+nav {
+  margin-left: auto;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding:0;
+  display: flex;
+}
+
+/* nav li  { */
+nav a  {
+  /* background-color: pink; */
+  width: 100px;
+  text-align: center;
+  line-height: 66px;
+  display: block;
+}
+
+nav a:hover {
+  background-color: #eee;
+}
+
+/* margin-left: auto;で右寄せする場合は親にflexが指定されてる時のみ */
